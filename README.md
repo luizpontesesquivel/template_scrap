@@ -38,25 +38,22 @@ Fornecer um **template base altamente eficiente** para scraping de resultados do
 ## 📂 Estrutura do Projeto
 
 ```
-
 template_scrap/
 ├── scraping/
-│   ├── **init**.py
-│   ├── selenium_scraper.py     # Scraping com Selenium
-│   ├── requests_scraper.py     # Scraping com requests + BeautifulSoup
+│   ├── __init__.py
+│   ├── selenium_scraper.py
+│   ├── requests_scraper.py
 │
 ├── utils/
-│   ├── **init**.py
-│   ├── logger.py               # Logger customizado
-│   └── config.py               # Configurações globais
+│   ├── __init__.py
+│   ├── logger.py
+│   └── config.py
 │
 ├── tests/
-│   └── test_scrapers.py        # Testes automatizados
+│   └── test_scrapers.py
 │
-├── main.py                     # Ponto de entrada principal
+├── main.py
 ├── requirements.txt
-└── README.md
-
 ````
 
 ---
